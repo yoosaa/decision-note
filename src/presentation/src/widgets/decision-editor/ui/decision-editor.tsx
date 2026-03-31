@@ -97,7 +97,7 @@ export function DecisionEditor(props: DecisionEditorProps) {
 
   return (
     <main className="min-h-screen bg-slate-50">
-      <div className="mx-auto max-w-7xl px-6 py-10">
+      <div className="mx-auto max-w-7xl px-3 xl:px-6 py-10">
         <div className="mb-6 flex items-center justify-between">
           <Link
             href="/decisions"
@@ -217,7 +217,7 @@ export function DecisionEditor(props: DecisionEditorProps) {
             </div>
           </div>
 
-          <div className="xl:sticky xl:top-6 xl:self-start">
+          <div className="w-full xl:sticky xl:top-6 xl:self-start">
             <DecisionComparison comparison={previewComparison} />
           </div>
         </div>

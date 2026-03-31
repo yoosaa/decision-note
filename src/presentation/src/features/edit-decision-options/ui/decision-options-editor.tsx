@@ -127,14 +127,14 @@ export function DecisionOptionsEditor({
                   }))
                 }
                 placeholder={`選択肢${optionIndex + 1}`}
-                className="flex-1 rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-slate-500"
+                className="flex-1 rounded-xl text-slate-600 placeholder:text-slate-400 border border-slate-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-slate-500"
               />
 
               <button
                 type="button"
                 onClick={() => removeOption(option.id)}
                 disabled={draft.options.length <= 2}
-                className="rounded-xl border border-red-300 px-3 py-2 text-sm text-red-700 disabled:opacity-50"
+                className="whitespace-nowrap rounded-xl border border-red-300 px-3 py-2 text-sm text-red-700 disabled:opacity-50"
               >
                 削除
               </button>
@@ -170,14 +170,14 @@ export function DecisionOptionsEditor({
                           )
                         }
                         placeholder="メリットを入力"
-                        className="flex-1 rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-slate-500"
+                        className="flex-1 rounded-xl text-slate-600 placeholder:text-slate-400 border border-slate-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-slate-500"
                       />
                       <button
                         type="button"
                         onClick={() =>
                           removeStringListItem(option.id, "pros", index)
                         }
-                        className="rounded-xl border border-slate-300 px-3 py-2 text-sm text-slate-700"
+                        className="whitespace-nowrap rounded-xl border border-slate-300 px-3 py-2 text-sm text-slate-700"
                       >
                         削除
                       </button>
@@ -217,14 +217,14 @@ export function DecisionOptionsEditor({
                           )
                         }
                         placeholder="デメリットを入力"
-                        className="flex-1 rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-slate-500"
+                        className="flex-1 rounded-xl text-slate-600 placeholder:text-slate-400 border border-slate-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-slate-500"
                       />
                       <button
                         type="button"
                         onClick={() =>
                           removeStringListItem(option.id, "cons", index)
                         }
-                        className="rounded-xl border border-slate-300 px-3 py-2 text-sm text-slate-700"
+                        className="whitespace-nowrap rounded-xl border border-slate-300 px-3 py-2 text-sm text-slate-700"
                       >
                         削除
                       </button>

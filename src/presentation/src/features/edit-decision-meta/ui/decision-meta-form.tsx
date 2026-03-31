@@ -24,7 +24,7 @@ export function DecisionMetaForm({ draft, onChange }: DecisionMetaFormProps) {
               })
             }
             placeholder="何について迷っているか"
-            className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none transition focus:border-slate-500"
+            className="w-full rounded-xl text-slate-600 placeholder:text-slate-400 border border-slate-300 px-4 py-3 text-sm outline-none transition focus:border-slate-500"
           />
         </div>
 
@@ -42,7 +42,7 @@ export function DecisionMetaForm({ draft, onChange }: DecisionMetaFormProps) {
             }
             placeholder="比較したい背景や状況"
             rows={4}
-            className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none transition focus:border-slate-500"
+            className="w-full rounded-xl text-slate-600 placeholder:text-slate-400 border border-slate-300 px-4 py-3 text-sm outline-none transition focus:border-slate-500"
           />
         </div>
 
@@ -60,7 +60,7 @@ export function DecisionMetaForm({ draft, onChange }: DecisionMetaFormProps) {
             }
             placeholder="最後に残したい考えや判断メモ"
             rows={4}
-            className="w-full rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none transition focus:border-slate-500"
+            className="w-full rounded-xl text-slate-600 placeholder:text-slate-400 border border-slate-300 px-4 py-3 text-sm outline-none transition focus:border-slate-500"
           />
         </div>
       </div>
