@@ -79,7 +79,7 @@ export function EvaluationAxesEditor({
               value={axis.name}
               onChange={(e) => updateAxisName(axis.id, e.target.value)}
               placeholder={`評価軸${index + 1}`}
-              className="flex-1 rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none transition focus:border-slate-500"
+              className="flex-1 rounded-xl text-slate-600 placeholder:text-slate-400 border border-slate-300 px-4 py-3 text-sm outline-none transition focus:border-slate-500"
             />
 
             <button
